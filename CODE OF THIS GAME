@@ -1,0 +1,63 @@
+print("-----welcome to my computer 1st game______")
+
+playing=input("do you want to play ")
+
+if playing != "yes":
+    quit()
+else:
+      print("okay let's play \n game is just started now! \n wait for 5 second....")
+
+      print("1")
+      print("2")
+      print("3")
+      print("4")
+      print("5")
+
+
+answer= input (" QUESTION 01 :- what is the value of 1+20=???")
+
+if answer == "21" :
+  print("correct!")
+  print("wowww again correct!!!!")
+  print("moving to the next question:")
+  pass
+else:
+  print("wrong")
+  print("good luck next time")
+
+answer= input ("QUESTION 02:- what is the value of 20/10=???")
+
+if answer == "2" :
+  print("correct!")
+  print("wowww again correct!!!!")
+  print("moving to the next question:")
+  pass
+else:
+  print("wrong")
+  print("good luck next time")
+
+answer= input ("QUESTION 03:- what is the value of 1-20=???")
+
+if answer == "-19" :
+  print("correct!")
+  print("you are doing great:")
+  print("moving to the next question:")
+else:
+  print("wrong")
+  print("good luck next time")
+
+answer= input ("QUESTION 04:- what is the value of 1*20=???")
+
+if answer == "20" :
+  print("correct!")
+  print(":::::::::::ENDING OF THIS QUIZ::::::::::::::")
+  
+  
+else:
+  print("wrong")
+  print("good luck next time")
+
+print(
+  ":::::::THANKS FOR JOINING THIS QUIZ:::::::::::"
+)
+print("thanks for join ")
